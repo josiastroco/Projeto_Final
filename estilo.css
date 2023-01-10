@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cor-de-cima{
+    background-color:rgb(74, 148, 153);
+    padding: 13px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.menu_l{
+    margin: 10px;
+}
+
+.nav_lista{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav_link{
+    padding: 20px 10px;
+}
+
+.foto{
+    background-image: url(./foto1.png);
+    background-repeat: no-repeat;
+    padding: 100px;
+
+}
+
+.intro{
+    font-weight:bold;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    margin: auto;
+    padding: 25px 0;
+}
+
+hr{
+    border: none;
+    background-color:rgb(74, 148, 153);
+    height: 2px;
+    width: 700px;
+    margin: 30px;
+}
+
+/*Sobre nós*/
+
+p{
+    line-height: 25px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color:rgb(74, 148, 153) ;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color:white ;
+}
+
+.sobre-nos{
+    max-width: 960px;
+    margin: auto;
+    padding: 80px;
+}
+
+/*Nossos clientes*/
+
+.cliente_corpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cliente{
+width: 280px;
+margin: 0 20px;
+}
+
+/*Serviços*/
+
+.lateral{margin-left: 60px;}
+.lat{margin-left: 10px;}
+.abaixo{margin-bottom: 25px;}
+.cima{margin-top: 50px}
+.tamanho1{font-size: 17px;}
+.borda1{border-radius: 10px;}
+
+button{
+ border: none;
+ padding: 5px 10px;
+ margin-top: none;
+ border-radius: 10px;/*permite fazer curva nos cantos*/
+} 
+
+.containe{
+color: #000;
+display: flex;
+flex-direction: row; /*coloca em forma de linha*/
+flex-wrap:wrap; /*permite os it se ajustar a div pai*/
+align-items: center; /* move os intm de baixo/cima*/
+justify-content: space-around; /* move os inten esquerda p/ dir e deter. o espaç entre elas*/
+background-color: white; /*fundo da div pai*/
+width: 100%; ;/* largura da div pai*/
+height: 400px;/*altura da div*/
+}
+
+.serv-title{
+    color:rgb(74, 148, 153);
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav .nav_lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-iten{
+    margin: 0 15px;
+}
+
+.nav_link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.newsletter{
+    background-color: rgb(74, 148, 153);
+}
+
+.newsletter-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-info{
+    padding-left: 70px;
+    flex: 1 1 260px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.newsletter-form{
+    flex: 2 1 260px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-info_titulo{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.newsletter-info_descricao{
+    font-style: italic;
+}
+
+.newsletter-info_input{
+    flex: 3 1 260px;
+    font-size: 1.5rem;
+    width: 325px;
+    color: block;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px solid var(--rosa-escuro);
+    padding: 10px;
+    margin: 0;
+    border-radius: 0px;
+}
+
+.newsletter-form_submit{
+    width: 192px;
+    font-family: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(74, 148, 153);
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}
+
